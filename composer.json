@@ -1,0 +1,21 @@
+{
+    "name": "ccaar/aplicacion-prueba-php",
+    "description": "APItest",
+    "type": "projetc",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models"
+        }
+    },
+    "authors": [
+        {
+            "name": "CarlosT",
+            "email": "carlosandrew1728@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
